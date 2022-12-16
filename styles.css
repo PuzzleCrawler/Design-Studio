@@ -1,0 +1,278 @@
+.body {
+    margin: 0 !important;
+    font-family: Nunito Sans, Arial;
+}
+
+.body * {
+    box-sizing: border-box;
+}
+
+/* HEADER AND TOP NAVIGATION */
+
+.container {
+    max-width: 1263px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.button__yellow {
+    background: #E3B873;
+    color: white;
+    font-style: italic;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+}
+
+.header {
+    background-color: #131313;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 83px;
+    max-width: 1256px;
+    padding-left: 2%;
+    padding-right: 7%;
+    align-items: center;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 582px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FIRST BLOCK - PROMOTION */
+
+.promotion {
+    background-image: url("Assets/Promo.png");
+    background-size: cover;
+    height: 707px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.promotion-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.promotion__title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+
+.promotion__description {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 504px;
+}
+
+.button__transparent {
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-style: italic;
+    border-radius: 2px;
+    border: 1px solid #FFFFFF;
+}
+
+/* SECOND BLOCK - COMPLETED PROJECTS */
+
+.completed {
+    background: #131313;
+}
+
+.completed-block {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+.completed-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 452px;
+    padding-top: 107px;
+    width: 623px;
+    font-family: 'Yeseva One';
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.completed-info__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.completed-info {
+    width: 442px;
+}
+
+.completed-info__description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.completed-info__details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two columns */
+    grid-template-rows: 1fr 1fr;   /* two rows */
+    grid-template-areas:
+      "completed-info__details-item1 completed-info__details-item2"
+      "completed-info__details-item3 completed-info__details-item4";
+}
+
+.completed-info__details-subtitle {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.completed-info__details-info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.completed-info__image {
+    max-width: 679px;
+    max-height: 482px;
+    padding-left: 10px;
+}
+
+.completed-info__scroll {
+    display: flex;
+    width: 206px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.arrow__left2 {
+    max-height: 1.34px;
+    min-width: 40.51px;
+    background: #FFFFFF;
+}
+
+.arrow__right2 {
+    max-height: 1.34px;
+    min-width: 40.51px;
+    background: #FFFFFF;
+}
+
+.arrow__right1 {
+    transform: rotate(-180deg);
+}
+
+.circle__active {
+    background: #FFFFFF;
+    width: 10px;         
+    height: 10px;
+    border-radius: 30px;
+}
+
+.circle__inactive {
+    background: rgba(255, 255, 255, 0.3);
+    width: 10px;         
+    height: 10px;
+    border-radius: 30px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}
+
+/* THIRD BLOCK - ONLINE CONTROL */
+
+/* FOURTH BLOCK - TYPES OF REPAIR */
+
+/* FIFTH BLOCK - STYLES */
+
+/* SIXTH BLOCK - OUR CLIENTS + CONTACT */
+
+/* SEVENTH BLOCK - SOCIALS + LOCATION */
+
+/* EIGHTH BLOCK - FOOTER NAVIGATION */
+
+.footer {
+    background-color: #131313;
+}
+
+/* OTHER */
+
+.yellow {
+    color: #E3B873;
+}
+
+.front {
+    position: relative;
+    z-index: 1;
+    padding-top: 190px;
+}
+
+.button-size__header {
+    width: 161px;
+    height: 37px;
+    font-size: 11px;
+}
+
+.button-size__promo {
+    width: 207px;
+    height: 51px;
+    font-size: 11px;
+}
+
+.active {
+    color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.inactive {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
