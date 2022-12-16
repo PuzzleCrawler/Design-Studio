@@ -108,7 +108,7 @@
 .completed-block {
     display: flex;
     padding-top: 50px;
-    padding-bottom: 300px;
+    padding-bottom: 440px;
 }
 
 .completed-navigation {
@@ -227,6 +227,159 @@
 }
 
 /* THIRD BLOCK - ONLINE CONTROL */
+
+.control-shift {
+    margin-top: -360px;
+}
+
+.control-title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.control-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.control-icon__camera {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.control-image {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 817px;
+    height: 434px;
+    margin-top: 30px;
+}
+
+.control-image__overlay {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 817px;
+    height: 434px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.control-image__circle {
+    position: absolute;
+    z-index: 2;
+}
+
+.control-image__play {
+    position: absolute;
+    z-index: 3;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.control-divider {
+    display: flex;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.control-info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    width: 681px;
+    margin: auto;
+}
+
+.control-form__main {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 769px;
+    height: 51px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.control-form__field {
+    display: grid;
+}
+
+.control-form__label {
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.control-form__input {
+    width: 230px;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    line-height: 23px;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+
+.control-form__button {
+    width: 200px;
+    height: 51px;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+.control-form__checklabel {
+    cursor: pointer;
+    display: flex;
+    width: 286px;
+    margin: auto;
+}
+
+.control-form__checkbox {
+    display: none;
+    padding-right: 5px;
+}
+
+.fake {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+
+.fake::before {
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+
+.control-form__checkbox:checked + .fake::before {
+    opacity: 1;
+}
+
+.control-form__checktext {
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 5px;
+}
 
 /* FOURTH BLOCK - TYPES OF REPAIR */
 
